@@ -1,0 +1,1 @@
+This is a JavaScript Piano project that is a clone of this wonderful project by Caroline Gabriel: https://codepen.io/gabrielcarol/.
