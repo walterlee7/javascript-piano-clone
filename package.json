@@ -1,0 +1,23 @@
+{
+    "name": "piano",
+    "version": "1.0.0",
+    "description": "This is a JavaScript Piano project that is a clone of this wonderful project by Caroline Gabriel: https://codepen.io/gabrielcarol/.",
+    "main": "piano.js",
+    "scripts": {
+        "deploy": "gh-pages -d build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/walterlee7/javascript-piano-clone.git"
+    },
+    "keywords": [],
+    "author": "Walter Lee",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/walterlee7/javascript-piano-clone/issues"
+    },
+    "homepage": "https://walterlee7.github.io/javascript-piano-clone",
+    "devDependencies": {
+        "gh-pages": "^2.0.1"
+    }
+}
