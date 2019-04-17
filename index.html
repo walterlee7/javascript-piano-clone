@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Walter Lee">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="img/walt-favicon.png">
+
     <title>JavaScript Piano</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,7 +22,7 @@
         <section id="main">
             <div class="nowplaying"></div>
             <div class="keys">
-                <div data-key="65" class="key" data-note="C">
+                <div data-key="65" class="key" data-note="C" onclick="playNote('65')">
                     <span class="hints">A</span>
                 </div>
                 <div data-key="87" class="key sharp" data-note="C#">
